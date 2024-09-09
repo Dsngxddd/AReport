@@ -1,0 +1,36 @@
+discord:
+  webhook_url: "WEHBOOK URL"
+
+inventory_title: "§cReport Categories"
+
+settings:
+  sound: "BLOCK_NOTE_BLOCK_PLING"
+
+report_categories:
+  troll:
+    slot: 0
+  fraud:
+    slot: 1
+  abuse:
+    slot: 2
+
+category_material:
+  troll: DIAMOND_SWORD
+  fraud: REDSTONE_BLOCK
+  abuse: PUMPKIN
+
+category_lore:
+  troll:
+    - "§cBu kategoride oyuncu, başkasının mülküne zarar vermiştir."
+    - "§cBu kategori, yapılan mülk tahribatlarını içerir."
+  fraud:
+    - "§cBu kategoride oyuncu hile kullanmıştır."
+    - "§cBu kategori, oyuncunun hile kullandığını içerir."
+  abuse:
+    - "§cBu kategoride kufur ettiyse."
+    - "§cBu kategori, kufur edenleri içerir."
+
+messages:
+  player_only_command: "§cBu komut sadece oyuncular tarafından kullanılabilir."
+  report_command_usage: "§cDoğru kullanım: /report <oyuncu_adı>"
+  report_sent: "§aRaporunuz başarıyla gönderildi. Teşekkür ederiz, %player%!"

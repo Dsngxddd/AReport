@@ -1,0 +1,16 @@
+name: AReport
+version: '${version}'
+main: net.cengiz1.areport.AReport
+api-version: '1.16'
+author: cengiz1
+softdepend:
+  - PlaceholderAPI
+  - vault
+libraries:
+  - com.squareup.okhttp3:okhttp:4.9.2
+  - cc.carm.lib:easyplugin-placeholderapi:1.5.6
+commands:
+  report:
+    permission: areport.use
+    permission-message: Not Found Permission
+    description: Report Command
